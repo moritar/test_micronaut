@@ -1,0 +1,6 @@
+applicationType: grpc
+defaultPackage: ac.jaist
+testFramework: kotest
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [annotation-api, app-name, data, data-mongodb, elasticsearch, gradle, grpc, jackson-databind, jib, kotest, kotlin, kotlin-application, kotlin-build, kubernetes, logback, management, micronaut-build, readme, security-annotations, security-jwt, shade, test-resources, yaml]

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "ac.jaist";
+option java_outer_classname = "Test_micronaut";
+option objc_class_prefix = "HLW";
+
+package ac.jaist;
+
+service Test_micronautService {
+  rpc send (Test_micronautRequest) returns (Test_micronautReply) {}
+}
+
+message Test_micronautRequest {
+  string name = 1;
+}
+
+message Test_micronautReply {
+  string message = 1;
+}
